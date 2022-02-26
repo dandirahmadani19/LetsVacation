@@ -1,10 +1,13 @@
-import LandingPage from 'pages/LandingPage'
-import React from 'react'
+import LandingPage from "pages/LandingPage";
+import React from "react";
 
 function App() {
   return (
-    <LandingPage/>
-  )
+    <>
+      <LandingPage />
+      <h1>Dandi</h1>
+    </>
+  );
 }
 
-export default App
+export default App;
